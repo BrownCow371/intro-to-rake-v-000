@@ -3,7 +3,7 @@ task :hello do
   puts "hello from Rake!"
 end
 
-task :environemnt do
+task :environment do
   require_relative './config/environment'
 end
 
@@ -18,4 +18,3 @@ namespace :db do
     require_relative './db/seeds.rb'
   end
 end
-
